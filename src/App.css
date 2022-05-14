@@ -1,0 +1,88 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+/* navbar */
+.navigation {
+  height: 54px;
+}
+/* home section */
+.home-section {
+  margin-top: 30px;
+  width: 50%;
+  padding: 30px;
+  height: 60vh;
+}
+/* welcome template */
+h1 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+#menu-button {
+  position: relative;
+  margin-top: 3vh;
+  font-size: 1.5rem;
+}
+
+/* product details */
+.product-section {
+  position: relative;
+  text-align: center;
+  margin: 4% auto;
+  width: 90%;
+}
+
+.product-box {
+  padding: 20px;
+}
+
+#product {
+  text-align: center;
+}
+.product-image {
+  height: 200px;
+}
+
+.product-box .btn {
+  width: 70px;
+}
+
+/* checkout section */
+.checkout-section {
+  padding: 20px;
+  margin: 100px auto;
+  width: 76%;
+  box-shadow: 0px 0px 3px 0px;
+}
+
+.checkout-section .checkout-text {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* menu button media css */
+@media (max-width: 400px) {
+  .home-section #menu-button {
+    position: relative;
+    margin-top: 3vh;
+    font-size: 0.5rem;
+  }
+}
+
+.cart-section {
+  padding: 20px;
+  margin: 100px auto;
+  width: 55%;
+  box-shadow: 0px 0px 3px 0px;
+}
+.item-product-qunatity {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.item-product-qunatity input {
+  width: 37px;
+}
